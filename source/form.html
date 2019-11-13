@@ -41,34 +41,34 @@
         <p class="reviews__description">
           Помогите нашим отелям стать лучше!Оставьте отзыв о них, а также о посещенных вами достопримечательностях
         </p>
-        <form class="reviews__form" action="https://echo.htmlacademy.ru" method="post">
-          <div class="reviews__form--wrapper wrapper-name">
-            <p class="wrapper-name--title">Представьтесь:</p>
-            <p class="wrapper-name--wrap">
-              <label for="user--name">Имя*:</label>
-              <input type="text" id="user--name" name="user--name" placeholder="Петр">
+        <form class="reviews__form blocks" action="https://echo.htmlacademy.ru" method="post">
+          <div class="blocks-wrapper input-name">
+            <p class="input-name__title">Представьтесь:</p>
+            <p class="input-name__wrap">
+              <label for="user-name">Имя*:</label>
+              <input type="text" id="user-name" name="user-name" placeholder="Петр">
             </p>
-            <p class="wrapper-name--wrap">
-              <label for="user--last-name">Фамилия*:</label>
-              <input type="text" id="user--last-name" name="user--last-name" placeholder="Иванов">
+            <p class="input-name__wrap">
+              <label for="user-lastname">Фамилия*:</label>
+              <input type="text" id="user-lastname" name="user-lastname" placeholder="Иванов">
             </p>
-            <p class="wrapper-name--wrap">
-              <label for="user--second-name">Отчество:</label>
-              <input type="text" id="user--second-name" name="user--second-name" placeholder="Александрович">
-            </p>
-          </div>
-          <div class="reviews__form--wrapper wrapper-contacts">
-            <p class="wrapper-contacts--title">Контактная информация:</p>
-            <p class="wrapper-name--wrap">
-              <label for="user--tel">Контактный телефон*:</label>
-              <input type="tel" id="user--tel" name="user--tel" placeholder="Введите телефон">
-            </p>
-            <p class="wrapper-name--wrap">
-              <label for="user--email">Электронная почта*:</label>
-              <input type="email" id="user--email" name="user--email" placeholder="Введите e-mail">
+            <p class="input-name__wrap">
+              <label for="user-secondname">Отчество:</label>
+              <input type="text" id="user-secondname" name="user-secondname" placeholder="Александрович">
             </p>
           </div>
-          <div class="reviews__form--wrapper wrapper-effect">
+          <div class="blocks-wrapper input-contacts">
+            <p class="input-contacts__title">Контактная информация:</p>
+            <p class="input-contacts__wrap">
+              <label for="user-tel">Контактный телефон*:</label>
+              <input type="tel" id="user-tel" name="user-tel" placeholder="Введите телефон">
+            </p>
+            <p class="input-contacts__wrap">
+              <label for="user-email">Электронная почта*:</label>
+              <input type="email" id="user-email" name="user-email" placeholder="Введите e-mail">
+            </p>
+          </div>
+          <div class="blocks-wrapper">
             <fieldset>
               <legend>Ваше общее впечатление:</legend>
               <ul class="effect__radio-list">
@@ -87,7 +87,7 @@
               </ul>
             </fieldset>
           </div>
-          <div class="reviews__form--wrapper wrapper-choise">
+          <div class="blocks-wrapper">
             <fieldset>
               <legend>Посещенные достопримечательности:</legend>
               <ul class="choise__checkbox-list">
@@ -110,10 +110,10 @@
               </ul>
             </fieldset>
           </div>
-          <div class="reviews__form--wrapper wrapper-feedback">
-            <p class="wrapper-feedback--wrap">
-              <label for="user--feedback">Опишите свои эмоции:</label>
-              <textarea id="user--feedback" name="user--feedback" placeholder="Опишите подробно все свои восторги"></textarea>
+          <div class="blocks-wrapper feedback">
+            <p class="feedback__wrap">
+              <label for="user-feedback">Опишите свои эмоции:</label>
+              <textarea id="user-feedback" name="user-feedback" placeholder="Опишите подробно все свои восторги"></textarea>
             </p>
           </div>
           <button class="btn" type="submit">Отправить отзыв</button>
