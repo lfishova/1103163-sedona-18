@@ -41,8 +41,8 @@
         <p class="reviews__description">
           Помогите нашим отелям стать лучше!Оставьте отзыв о них, а также о посещенных вами достопримечательностях
         </p>
-        <form class="reviews__form blocks" action="https://echo.htmlacademy.ru" method="post">
-          <div class="blocks-wrapper input-name">
+        <form class="reviews__form attractions-wrapper" action="https://echo.htmlacademy.ru" method="post">
+          <div class="attractions-wrapper input-name">
             <p class="input-name__title">Представьтесь:</p>
             <p class="input-name__wrap">
               <label for="user-name">Имя*:</label>
@@ -57,7 +57,7 @@
               <input type="text" id="user-secondname" name="user-secondname" placeholder="Александрович">
             </p>
           </div>
-          <div class="blocks-wrapper input-contacts">
+          <div class="attractions-wrapper input-contacts">
             <p class="input-contacts__title">Контактная информация:</p>
             <p class="input-contacts__wrap">
               <label for="user-tel">Контактный телефон*:</label>
@@ -68,9 +68,9 @@
               <input type="email" id="user-email" name="user-email" placeholder="Введите e-mail">
             </p>
           </div>
-          <div class="blocks-wrapper">
-            <fieldset>
-              <legend>Ваше общее впечатление:</legend>
+          <div class="attractions-wrapper effect-contant">
+            <fieldset class="effect-contant__container effect">
+              <legend class="effect__title">Ваше общее впечатление:</legend>
               <ul class="effect__radio-list">
                 <li class="effect__radio-item">
                   <input class="effect__radio-input visually-hidden" id="effect__control-one" type="radio" name="effect" value="positive" checked>
@@ -87,9 +87,9 @@
               </ul>
             </fieldset>
           </div>
-          <div class="blocks-wrapper">
-            <fieldset>
-              <legend>Посещенные достопримечательности:</legend>
+          <div class="attractions-wrapper choise-contant">
+            <fieldset class="choise-contant__container choise">
+              <legend class="choise__title">Посещенные достопримечательности:</legend>
               <ul class="choise__checkbox-list">
                 <li class="choise__checkbox-item">
                   <input class="choise__checkbox-input visually-hidden" id="choise__check-1" type="checkbox" name="bridge" checked>
@@ -110,7 +110,7 @@
               </ul>
             </fieldset>
           </div>
-          <div class="blocks-wrapper feedback">
+          <div class="attractions-wrapper feedback">
             <p class="feedback__wrap">
               <label for="user-feedback">Опишите свои эмоции:</label>
               <textarea id="user-feedback" name="user-feedback" placeholder="Опишите подробно все свои восторги"></textarea>
