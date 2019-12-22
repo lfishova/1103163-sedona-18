@@ -1,0 +1,12 @@
+@import "../variables.scss";
+
+.photos__picture--name {
+  font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: $black;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+

@@ -1,0 +1,35 @@
+@import "../variables";
+
+.input-name__title {
+  font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+
+.input-name__caption {
+  font-weight: normal;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: $black;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+
+.input-name__text {
+  font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+  text-transform: none;
+  background-color: #ffffff;
+}
+
+.input-name__text::placeholder {
+  color: inherit;
+}

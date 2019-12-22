@@ -1,0 +1,14 @@
+@import "../variables.scss";
+
+.recommendation {
+  color: $black;
+  background-color: #ffffff;
+}
+
+.recommendation__title {
+  font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+}

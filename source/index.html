@@ -2,40 +2,61 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Седона — небольшой городок в Аризоне</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="page">
     <header class="page-header">
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button" aria-label="Скрыть мобильное меню"></button>
+
+        <button class="main-nav__toggle" type="button" aria-label="Скрыть мобильное меню">
+          <svg class="main-nav__toggle-icon" width="23" height="22" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.199px" height="22.199px" viewBox="0 0 22.199 22.199" enable-background="new 0 0 22.199 22.199" xml:space="preserve">
+            <polygon points="22.199,2.804 19.396,0 11.1,8.297 2.804,0 0,2.803 8.297,11.1 0,19.396 2.803,22.199 11.1,13.902 19.396,22.199 22.199,19.396 13.903,11.1 "/>
+          </svg>
+        </button>
+
         <ul class="main-nav__list nav-list">
           <li class="nav-list__item list__item--active">
-            <a>Главная</a>
+              <a class="main-nav__link">Главная</a>
           </li>
           <li class="nav-list__item">
-            <a href="photo.html">Фото и видео</a>
+            <a class="main-nav__link" href="photo.html">Фото и видео</a>
           </li>
           <li class="nav-list__item">
-            <a href="form.html">Форма отзыва</a>
+            <a class="main-nav__link" href="form.html">Форма отзыва</a>
           </li>
           <li class="nav-list__item">
-            <a href="#">HTML Academy</a>
+            <a class="main-nav__link" href="#">HTML Academy</a>
           </li>
         </ul>
 
+        <div class="main-nav__logo-wrapper">
+          <a class="main-nav__logo" href="#">
+            <img class="main-nav__logo-image" width="102" height="83" src="img/logo-sedona-mobile.svg"
+               alt="логотип городка Седона из штата Аризона">
+          </a>
+        </div>
+
+        <button class="main-nav__toggle-open" type="button" aria-label="Открыть главное меню">
+          <svg width="23" height="21" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.928px" height="21.982px" viewBox="0 0 22.928 21.982" enable-background="new 0 0 22.928 21.982" xml:space="preserve">
+            <g>
+              <rect width="22.928" height="3.964"/>
+              <rect y="9.009" width="22.928" height="3.964"/>
+              <rect y="18.018" width="22.928" height="3.964"/>
+            </g>
+          </svg>
+
+        </button>
+
       </nav>
-      <div class="main-nav__wrapper">
-        <a class="main-nav__logo" href="#">
-          <img class="main-nav__logo-image" src="https://via.placeholder.com/150x150" alt="логотип городка Седона из штата Аризона">
-        </a>
-        <button class="main-nav__toggle" type="button" aria-label="Открыть главное меню"></button>
-      </div>
+
     </header>
     <main class="page-main">
       <h1 class="visually-hidden">Городок Седона из штата Аризона</h1>
       <section class="intro">
         <p class="intro__picture">
-          <img src="https://via.placeholder.com/150x150" aria-hidden="true" alt="">
+          <img src="img/bg-back-mobile@1x.jpg" aria-hidden="true" alt="">
         </p>
         <p class="intro__slogan">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
         <p class="intro__preview">Рассмотрим 5 причин, по которым седона круче, чем Гранд Каньон!</p>
@@ -43,17 +64,17 @@
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества путешествия в Седону</h2>
         <ul class="advantages__list">
-          <li class="advantages__item">
+          <li class="advantages__item advantages__item--blue">
             <h3 class="advantages__title">Настоящий городок</h3>
             <p class="advantages__number">№1</p>
-            <p class="advantages__description">Седона не атракцион для туристов</p>
+            <p class="advantages__description">Седона не атракцион для туристов, там течет своя жизнь</p>
             <p class="advantages__picture">
-              <img src="https://via.placeholder.com/150x150" alt="Одноэтажная Америка">
+              <img src="img/main-city-mobile@1x.jpg" alt="Одноэтажная Америка">
             </p>
-            <div class="recommendation__wrapper">
+            <div class="recommendation">
               <ul class="recommendation__list">
                 <li class="recommendation__item">
-                  <h3 class="recommendation__title">Быстро</h3>
+                  <h3 class="recommendation__title">Жилье</h3>
                   <p class="recommendation__description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
                 </li>
                 <li class="recommendation__item">
@@ -67,12 +88,12 @@
               </ul>
             </div>
           </li>
-          <li class="advantages__item">
+          <li class="advantages__item advantages__item--blue">
             <h3 class="advantages__title">Там есть мост Дьявола</h3>
             <p class="advantages__number">№2</p>
             <p class="advantages__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
             <p class="advantages__picture">
-              <img src="https://via.placeholder.com/150x150" alt="Мост Дьявола">
+              <img src="img/photo-bridge-mobile@1x.jpg" alt="Мост Дьявола">
             </p>
           </li>
           <li class="advantages__item">
@@ -103,7 +124,7 @@
       <section class="location">
         <h3 class="visually-hidden">Седона на google maps</h3>
         <div class="location__map">
-          <iframe src="https://via.placeholder.com/150x150" width="" height="" aria-label="Подробное месторасположение Седоны"></iframe>
+          <iframe src="img/bg-map-mobile@1x.jpg" width="" height="" aria-label="Подробное месторасположение Седоны"></iframe>
         </div>
       </section>
     </main>

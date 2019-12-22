@@ -1,0 +1,21 @@
+@import "../variables";
+
+.effect__title {
+  font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+
+.effect__radio-label {
+  font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+  text-transform: none;
+  background-color: #ffffff;
+}
