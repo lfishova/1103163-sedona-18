@@ -1,8 +1,6 @@
-@import "../variables";
-
 .effect__title {
   font-weight: bold;
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: $font-family-base;
   font-size: 18px;
   line-height: 26px;
   color: $black;
@@ -12,7 +10,7 @@
 
 .effect__radio-label {
   font-weight: bold;
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: $font-family-base;
   font-size: 18px;
   line-height: 26px;
   color: $black;

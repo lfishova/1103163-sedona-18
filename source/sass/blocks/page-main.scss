@@ -1,11 +1,8 @@
-@import "../variables.scss";
-
 .page-main {
   font-weight: normal;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
   color: $black;
   text-transform: uppercase;
-  //background-color: #ffffff;
 }

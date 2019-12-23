@@ -1,8 +1,6 @@
-@import "../variables.scss";
-
 .author--caption {
   font-weight: normal;
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: $font-family-base;
   font-size: 14px;
   line-height: 24px;
   color: $black;
@@ -12,8 +10,8 @@
 
 .author--name {
   font-weight: normal;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 14px;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
   line-height: 24px;
   color: $black;
   text-transform: none;
@@ -22,8 +20,8 @@
 
 .author--likes-counter {
   font-weight: bold;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 14px;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
   line-height: 24px;
   color: $black;
   text-transform: none;

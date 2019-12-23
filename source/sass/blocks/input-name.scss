@@ -1,8 +1,6 @@
-@import "../variables";
-
 .input-name__title {
   font-weight: bold;
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: $font-family-base;
   font-size: 18px;
   line-height: 26px;
   color: $black;
@@ -12,8 +10,8 @@
 
 .input-name__caption {
   font-weight: normal;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 14px;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
   line-height: 26px;
   color: $black;
   text-transform: uppercase;
@@ -22,7 +20,7 @@
 
 .input-name__text {
   font-weight: bold;
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: $font-family-base;
   font-size: 18px;
   line-height: 26px;
   color: $black;

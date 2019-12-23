@@ -1,24 +1,6 @@
-@import "../variables.scss";
-
-//.intro {
-//
-//  // background-color: red;
-//}
-//
-//.intro__picture {
-//  margin: 0;
-//  padding: 0;
-//  text-align: center;
-//  // outline: 5px solid black;
-//}
-//
 .intro__slogan {
-  //margin: 0;
-  //padding: 0;
-  //text-align: center;
-  //outline: 5px solid black;
   font-weight: bold;
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: $font-family-base;
   font-size: 18px;
   line-height: 26px;
   color: $black;
@@ -26,13 +8,9 @@
 }
 
 .intro__preview {
-  //margin: 0;
-  //padding: 0;
-  //text-align: center;
-  // outline: 5px solid black;
   font-weight: normal;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 14px;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
   line-height: 26px;
   color: $black;
   text-transform: uppercase;

@@ -1,68 +1,13 @@
-@import "../mixin/lists.scss";
-
 .main-nav {
   position: relative;
-  //background-color: green;
 }
 
 .main-nav__toggle {
   position: absolute;
   top: 1px;
   right: 1px;
-  //outline: 1px solid red;
 }
 
 .main-nav__list {
   @include list-reset;
-  //outline: 1px solid red;
-}
-
-.main-nav__logo-wrapper {
-  //position: absolute;
-  //padding: 0;
-  //margin: 0;
-  //outline: 1px solid red;
-}
-
-.main-nav__toggle-open {
-  //position: absolute;
-  //top: 200px;
-  //right: 1px;
-  //outline: 1px solid red;
-}
-
-//
-//.main-nav__toggle {
-//  position: absolute;
-//  top: 0;
-//  right: 10px;
-//  width: 50px;
-//  height: 50px;
-//  padding: 0;
-//  border: 0;
-//  background-color: transparent;
-//  //outline: 1px solid red;
-//}
-//
-//.main-nav__toggle-open {
-//  position: absolute;
-//  top: 160px;
-//  right: 10px;
-//  width: 50px;
-//  height: 50px;
-//  padding: 0;
-//  border: 0;
-//  background-color: transparent;
-//  //outline: 1px solid red;
-//}
-//
-.main-nav__logo {
-  //position: absolute;
-  //z-index: 10;
-  //left: 50%;
-  //bottom: -41px;
-  //transform: translateX(-50%);
-  //padding: 0;
-  //margin: 0;
-  //outline: 1px solid green;
 }

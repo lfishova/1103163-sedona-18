@@ -1,12 +1,8 @@
-//body
-@import "../variables";
-@import "../mixin/visuallyhidden";
-
 .page {
   margin: 0;
   padding: 0;
   font-weight: bold;
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: $font-family-base;
   font-size: 18px;
   line-height: 40px;
   color: $white;
