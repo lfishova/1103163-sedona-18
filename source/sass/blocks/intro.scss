@@ -1,0 +1,17 @@
+.intro__slogan {
+  font-weight: bold;
+  font-family: $font-family-base;
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+  text-transform: uppercase;
+}
+
+.intro__preview {
+  font-weight: normal;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: 26px;
+  color: $black;
+  text-transform: uppercase;
+}

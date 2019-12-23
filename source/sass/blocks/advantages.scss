@@ -1,0 +1,16 @@
+.advantages__list {
+  @include list-reset;
+}
+
+.advantages__item--blue {
+  color: $white;
+  background-color: #81b3d2;
+}
+
+.advantages__title {
+  font-weight: bold;
+  font-family: $font-family-base;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+}

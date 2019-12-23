@@ -2,12 +2,17 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Седона - форма отзыва</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="page">
     <header class="page-header">
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button" aria-label="Скрыть мобильное меню"></button>
+        <button class="main-nav__toggle" type="button" aria-label="Скрыть мобильное меню">
+          <svg class="main-nav__toggle-icon" width="23" height="22" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.199px" height="22.199px" viewBox="0 0 22.199 22.199" enable-background="new 0 0 22.199 22.199" xml:space="preserve">
+            <polygon points="22.199,2.804 19.396,0 11.1,8.297 2.804,0 0,2.803 8.297,11.1 0,19.396 2.803,22.199 11.1,13.902 19.396,22.199 22.199,19.396 13.903,11.1 "/>
+          </svg>
+        </button>
         <ul class="main-nav__list nav-list">
           <li class="nav-list__item">
             <a href="index.html">Главная</a>
@@ -22,19 +27,28 @@
             <a href="#">HTML Academy</a>
           </li>
         </ul>
-        <div class="main-nav__wrapper">
+        <div class="main-nav__logo-wrapper">
           <a class="main-nav__logo" href="#">
-            <img class="main-nav__logo-image" src="https://via.placeholder.com/150x150" alt="логотип городка Седона из штата Аризона">
+            <img class="main-nav__logo-image" width="102" height="83" src="img/logo-sedona-mobile.svg" alt="логотип городка Седона из штата Аризона">
           </a>
-          <button class="main-nav__toggle" type="button" aria-label="Открыть главное меню"></button>
         </div>
+        <button class="main-nav__toggle-open" type="button" aria-label="Открыть главное меню">
+          <svg width="23" height="21" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.928px" height="21.982px" viewBox="0 0 22.928 21.982" enable-background="new 0 0 22.928 21.982" xml:space="preserve">
+            <g>
+              <rect width="22.928" height="3.964"/>
+              <rect y="9.009" width="22.928" height="3.964"/>
+              <rect y="18.018" width="22.928" height="3.964"/>
+            </g>
+          </svg>
+        </button>
+
 
       </nav>
     </header>
     <main class="page-main page-reviews">
       <h1 class="visually-hidden">Здесь вы можете оставить свой отзыв. Мы уважаем любое мнение.</h1>
       <p class="page-reviews__picture">
-        <img src="https://via.placeholder.com/150x150" aria-hidden="true" alt="">
+        <img src="img/bg-back-mobile@1x.jpg" aria-hidden="true" alt="">
       </p>
       <section class="page-reviews reviews">
         <h2 class="reviews__title">Оставьте свой отзыв</h2>
@@ -45,27 +59,27 @@
           <div class="attractions-wrapper input-name">
             <p class="input-name__title">Представьтесь:</p>
             <p class="input-name__wrap">
-              <label for="user-name">Имя*:</label>
-              <input type="text" id="user-name" name="user-name" placeholder="Петр">
+              <label class="input-name__caption" for="user-name">Имя*:</label>
+              <input class="input-name__text" type="text" id="user-name" name="user-name" placeholder="Петр">
             </p>
             <p class="input-name__wrap">
-              <label for="user-lastname">Фамилия*:</label>
-              <input type="text" id="user-lastname" name="user-lastname" placeholder="Иванов">
+              <label class="input-name__caption" for="user-lastname">Фамилия*:</label>
+              <input class="input-name__text" type="text" id="user-lastname" name="user-lastname" placeholder="Иванов">
             </p>
             <p class="input-name__wrap">
-              <label for="user-secondname">Отчество:</label>
-              <input type="text" id="user-secondname" name="user-secondname" placeholder="Александрович">
+              <label class="input-name__caption" for="user-secondname">Отчество:</label>
+              <input class="input-name__text" type="text" id="user-secondname" name="user-secondname" placeholder="Александрович">
             </p>
           </div>
           <div class="attractions-wrapper input-contacts">
             <p class="input-contacts__title">Контактная информация:</p>
             <p class="input-contacts__wrap">
-              <label for="user-tel">Контактный телефон*:</label>
-              <input type="tel" id="user-tel" name="user-tel" placeholder="Введите телефон">
+              <label class="input-contacts__caption" for="user-tel">Контактный телефон*:</label>
+              <input class="input-contacts__text" type="tel" id="user-tel" name="user-tel" placeholder="Введите телефон">
             </p>
             <p class="input-contacts__wrap">
-              <label for="user-email">Электронная почта*:</label>
-              <input type="email" id="user-email" name="user-email" placeholder="Введите e-mail">
+              <label class="input-contacts__caption" for="user-email">Электронная почта*:</label>
+              <input class="input-contacts__text" type="email" id="user-email" name="user-email" placeholder="Введите e-mail">
             </p>
           </div>
           <div class="attractions-wrapper effect-contant">
@@ -112,8 +126,8 @@
           </div>
           <div class="attractions-wrapper feedback">
             <p class="feedback__wrap">
-              <label for="user-feedback">Опишите свои эмоции:</label>
-              <textarea id="user-feedback" name="user-feedback" placeholder="Опишите подробно все свои восторги"></textarea>
+              <label class="feedback-title" for="user-feedback">Опишите свои эмоции:</label>
+              <textarea  class="feedback-text" id="user-feedback" name="user-feedback" placeholder="Опишите подробно все свои восторги"></textarea>
             </p>
           </div>
           <button class="btn" type="submit">Отправить отзыв</button>

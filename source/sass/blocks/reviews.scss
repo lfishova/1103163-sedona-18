@@ -1,0 +1,19 @@
+.reviews {
+  font-weight: normal;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: 24px;
+  color: $black;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+
+.reviews__title {
+  font-weight: bold;
+  font-family: $font-family-base;
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}

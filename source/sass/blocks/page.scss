@@ -1,0 +1,20 @@
+.page {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-family: $font-family-base;
+  font-size: 18px;
+  line-height: 40px;
+  color: $white;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+
+.visually-hidden {
+  @include visuallyhidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
