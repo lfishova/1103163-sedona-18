@@ -1,7 +1,36 @@
+.rent {
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 49px;
+  padding-left: 20px;
+  text-align: center;
+}
+
 .rent__title {
   font-weight: bold;
   font-family: $font-family-base;
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
+  margin: 0;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.rent__invite {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.rent__hotel {
+  width: 100%;
+  display: block;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $white;
+  background-color: #81b3d2;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
