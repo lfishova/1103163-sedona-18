@@ -1,5 +1,10 @@
 .page-footer {
   color: $black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 23px;
 }
 
 .page-footer__hashtag {
